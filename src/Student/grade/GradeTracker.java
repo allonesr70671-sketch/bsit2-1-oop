@@ -4,7 +4,6 @@ import java.util.*;
 
 public class GradeTracker {
 
-    // A fixed scale -> an ARRAY is perfect (it never grows)
     static double[] cutoffs = {90, 80, 70, 60};
     static char[] letters = {'A', 'B', 'C', 'D'};
 
@@ -12,7 +11,7 @@ public class GradeTracker {
         for (int i = 0; i < cutoffs.length; i++) {
             if (grade >= cutoffs[i]) return letters[i];
         }
-        return 'F';   // below all cutoffs
+        return 'F';
     }
 
     public static void main(String[] args) {
