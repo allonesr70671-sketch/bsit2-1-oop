@@ -12,6 +12,7 @@ public class GradeTracker {
             if (grade >= cutoffs[i]) return letters[i];
         }
         return 'F';
+
     }
 
     public static void main(String[] args) {
