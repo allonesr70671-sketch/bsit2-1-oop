@@ -1,4 +1,4 @@
-package Student.grade;
+package GradeStudents.main;
 
 import java.util.*;
 
